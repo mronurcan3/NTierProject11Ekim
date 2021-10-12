@@ -26,7 +26,7 @@ namespace Project.Entities.Models
         public virtual UserProfile UserProfile { get; set; }
 
         public virtual List<Order> Orders { get; set; }
-
+        //test
         public AppUser()
         {
             Role = UserRole.Member;
